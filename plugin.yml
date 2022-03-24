@@ -8,13 +8,13 @@
 #                                                                                           
 #                                                                                           
 # The original minigame, free, and better than ever !
-# @author Ad5001
-# @link ad5001.eu
+# @author SkulZOnTheYT
+# youtube SkulZ
 name: HideAndSeek
-author:  Ad5001
+author:  SkulZOnTheYT
 version: 1.0
-api: [3.0.0, 3.0.0-ALPHA3]
-main: Ad5001\HideAndSeek\Main
+api: [4.0.0]
+main: SkulZTeams\HideAndSeek\Main
 load: POSTWORLD
 commands:
   hideandseek:
@@ -24,6 +24,6 @@ commands:
     aliases: [hide&seek, h&s]
 permissions: 
   hideandseek.cmd:
-    default: op
+    default: true
     description: /hideandseek permission
 ...
