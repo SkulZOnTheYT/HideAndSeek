@@ -8,10 +8,10 @@
 #                                                                                           
 #                                                                                           
 # The original minigame, free, and better than ever !
-# @author Ad5001
-# @link ad5001.eu
+# @author SkulZOnTheYT
+# Youtube: SkulZ
 
-namespace Ad5001\HideAndSeek;
+namespace SkulZTeams\HideAndSeek;
  
 use pocketmine\Server;
 use pocketmine\Player;
@@ -22,8 +22,8 @@ use pocketmine\scheduler\PluginTask;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\item\Item;
 
-use Ad5001\HideAndSeek\Main;
-use Ad5001\HideAndSeek\GameManager;
+use SkulZTeams\HideAndSeek\Main;
+use SkulZTeams\HideAndSeek\GameManager;
 
 class Game extends PluginTask /* Allows easy game running */ implements Listener {
 
