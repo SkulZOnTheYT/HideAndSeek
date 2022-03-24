@@ -8,16 +8,16 @@
 #                                                                                           
 #                                                                                           
 # The original minigame, free, and better than ever !
-# @author Ad5001
-# @link ad5001.eu
+# @author SkulZOnTheYT
+# Youtube: SkulZ
 
-namespace Ad5001\HideAndSeek;
+namespace SkulZTeams\HideAndSeek;
 
 use pocketmine\Server;
 use pocketmine\Player;
 use SQLite3;
 
-use Ad5001\HideAndSeek\Main;
+use SkulZTeams\HideAndSeek\Main;
 
 class DataBase extends SQLite3 {
     
