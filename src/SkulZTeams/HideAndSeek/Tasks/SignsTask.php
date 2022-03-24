@@ -8,10 +8,10 @@
 #                                                                                           
 #                                                                                           
 # The original minigame, free, and better than ever !
-# @author Ad5001
-# @link ad5001.eu
+# @author SkulZOnTheYT
+# Youtube: SkulZ
 
-namespace Ad5001\HideAndSeek\tasks;
+namespace SkulZTeams\HideAndSeek\tasks;
 
 use pocketmine\Server;
 use pocketmine\scheduler\PluginTask;
@@ -20,8 +20,8 @@ use pocketmine\tile\Sign;
 use pocketmine\nbt\tag\ListTag;
 use pocketmine\nbt\tag\StringTag;
 
-use Ad5001\HideAndSeek\Main;
-use Ad5001\HideAndSeek\Game;
+use SkulZTeams\HideAndSeek\Main;
+use SkulZTeams\HideAndSeek\Game;
 
 
 
