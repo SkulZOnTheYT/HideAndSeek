@@ -8,10 +8,10 @@
 #                                                                                           
 #                                                                                           
 # The original minigame, free, and better than ever !
-# @author Ad5001
-# @link ad5001.eu
+# @author SkulZOnTheYT
+# Youtube: SkulZ
 
-namespace Ad5001\HideAndSeek;
+namespace SkulZTeams\HideAndSeek;
 
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
@@ -22,7 +22,7 @@ use pocketmine\nbt\tag\StringTag;
 use pocketmine\Server;
 use pocketmine\Player;
 
-use Ad5001\HideAndSeek\tasks\SignsTask;
+use SkulZTeams\HideAndSeek\tasks\SignsTask;
 
 class Main extends PluginBase implements Listener {
 
@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener {
    /*
    Called when the plugin enables
    */
-   public function onEnable() {
+   public function onEnable() void{
         $this->saveDefaultConfig();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         //Database setup
