@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener {
    /*
    Called when the plugin enables
    */
-   public function onEnable() void{
+   public function onEnable() : void{
         $this->saveDefaultConfig();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         //Database setup
